@@ -5,6 +5,7 @@ from langchain.agents import create_agent
 from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool
 from langchain_core.utils.uuid import uuid7
+from langchain_core.messages import HumanMessage, SystemMessage
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
